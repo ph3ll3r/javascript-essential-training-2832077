@@ -12,6 +12,10 @@ const backpack = {
     right: 26,
   },
   lidOpen: false,
+  /**
+   *
+   * @param {boolean} lidStatus
+   */
   toggleLid: function (lidStatus) {
     this.lidOpen = lidStatus;
   },
